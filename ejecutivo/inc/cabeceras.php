@@ -107,8 +107,6 @@ $nomResponsable = obtenerValor($filaConsultaEjecutivo, 'nom_eje');
 // ====================================================================
 $ingresoUsuario = obtenerValor($filaConsultaEjecutivo, 'ing_eje');
 $nombreUsuario = obtenerValor($filaConsultaEjecutivo, 'nom_eje');
-$appUsuario = obtenerValor($filaConsultaEjecutivo, 'app_eje');
-$apmUsuario = obtenerValor($filaConsultaEjecutivo, 'apm_eje');
 $correoUsuario = obtenerValor($filaConsultaEjecutivo, 'cor_eje');
 $generoUsuario = obtenerValor($filaConsultaEjecutivo, 'gen_eje');
 $telefonoUsuario = obtenerValor($filaConsultaEjecutivo, 'tel_eje');

@@ -39,7 +39,7 @@ proyecto/
 
 ---
 
-## 🔐 **SESIONES EN PHP 5.6**
+## 🔐 **SESIONES EN PHP**
 
 ### 🚀 **Flujo de Autenticación**
 

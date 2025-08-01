@@ -1,0 +1,40 @@
+.DS_Store
+
+# Archivos de sistema
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos de iconos en carpetas
+Icon?
+
+# Archivos de Spotlight
+.Spotlight-V100
+
+# Archivos de sistema de volumen
+.Trashes
+
+# Archivos de estado
+ehthumbs.db
+Thumbs.db
+
+# Archivos de backup de editores comunes
+*~
+*.swp
+*.swo
+
+# Archivos de logs
+*.log
+
+# Archivos de entornos virtuales (Python)
+venv/
+env/
+ENV/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# macOS global excludes
+.idea/
+.vscode/

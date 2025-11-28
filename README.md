@@ -18,23 +18,26 @@
 
 ```
 proyecto/
-├── css/                    ← Hojas de estilo adicionales
-├── ejecutivo/              ← Módulo ejecutivo
-│   ├── assets/            ← Recursos estáticos (JS, CSS, imágenes)
-│   ├── inc/               ← Archivos de inclusión
-│   │   ├── cabeceras.php  ← Variables y configuración del sistema
-│   │   ├── header.php     ← Encabezado con CSS del loader
-│   │   ├── footer.php     ← Pie con script del loader
-│   │   ├── funciones.php  ← Funciones PHP aquí
-│   │   └── server/        ← Directorio de servicios servidor
-│   ├── home.php           ← AQUI ESTÁS
-│   ├── pagina_limpia.php  ← Página para comenzar
-│   └── cerrar_sesion.php  ← Logout del sistema
-├── img/                   ← Directorio de imágenes globales
-├── includes/              ← Includes generales del sistema
-│   └── conexion.php       ← Configuración de BD ($db) y WebSocket
-├── uploads/               ← Directorio de archivos subidos
-└── index.php              ← Punto de entrada principal
+├── css/                        ← Hojas de estilo adicionales
+├── ejecutivo/                  ← Módulo ejecutivo
+│   ├── assets/                 ← Recursos estáticos (JS, CSS, imágenes)
+│   ├── inc/                    ← Archivos de inclusión
+│   │   ├── cabeceras.php       ← Variables y configuración del sistema
+│   │   ├── header.php          ← Encabezado con estilos del loader HTML DEPENDENCIAS CSS
+│   │   ├── footer.php          ← Pie con scripts del loader HTML + JS DEPENDENCIAS JS
+│   │   ├── funciones.php       ← Funciones PHP del módulo
+│   ├── server/                 ← Servicios del lado servidor para el módulo
+│   │   ├── controlador_x.php   ← Ejemplo de endpoint
+│   │   ├── controlador_y.php   ← Lógica de procesos
+│   │   └── ...                 ← Más servicios o endpoints
+│   ├── home.php                ← AQUI ESTÁS
+│   ├── pagina_limpia.php       ← Plantilla base sin elementos extra
+│   └── cerrar_sesion.php       ← Logout del sistema
+├── img/                        ← Imágenes globales
+├── includes/                   ← Includes generales del sistema
+│   └── conexion.php            ← Conexión a BD ($db) + WebSocket si aplica
+├── uploads/                    ← Archivos cargados por usuario
+└── index.php                   ← Entrada principal del sistema
 ```
 
 ---
